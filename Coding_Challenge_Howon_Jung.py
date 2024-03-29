@@ -130,7 +130,7 @@ def get_user_input():
 
             if not converter.is_valid_roman(user_input):
                 print("\n" + "-"*70)
-                print("Error: Invalid Roman numeral. Please try again.")
+                print("\nExpected result and the actual result are not matching.")
                 print("-"*70)
                 continue
 
